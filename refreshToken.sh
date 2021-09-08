@@ -1,0 +1,1 @@
+export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain npm --domain-owner <id-aws-account-user> --query authorizationToken --output text --region <region> --profile <profilename>`
